@@ -1,0 +1,10 @@
+Notlar - 11 Mayıs 2022
+
+1) Her bir eleman ayrı bir liste (linked-list için).
+2) Arraydan farklı olarak, istenildiği zaman değiştirilebilen bir yapıya sahip.
+3) Kitap 5.10 -> Linked List
+4) Node - Stack - Heap - List gibi kavramlar.
+5) Recursive fonksiyon yazımı.
+6) 5. Chapter ve 6. Chapter Komple
+7) C'de Kütüphane yazmak.
+8) NULL Pointer ve NULL kavramı
