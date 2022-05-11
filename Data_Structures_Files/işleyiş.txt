@@ -1,4 +1,4 @@
-Notlar - 11 Mayıs 2022
+Notlar - 11 Mayıs 2022 - C programming.
 
 1) Her bir eleman ayrı bir liste (linked-list için).
 2) Arraydan farklı olarak, istenildiği zaman değiştirilebilen bir yapıya sahip.
@@ -8,3 +8,25 @@ Notlar - 11 Mayıs 2022
 6) 5. Chapter ve 6. Chapter Komple
 7) C'de Kütüphane yazmak.
 8) NULL Pointer ve NULL kavramı
+- Ses kaydı 244.sayfayı anlatıyor.
+9) fabs() - double donduren absolute value
+10) strcmp - string_compare fonksiyonu. Eğer string'in içeriği aynı ise 0 döndürüyor.
+11) strcmp - iki stringi kıyaslıyor. hangisinimn ascii kodu daha yüksekse onu yazdırıyor mu ? araştır bunu.
+12) 5.11 Queues ->
+
+Şevkonun Yazdığı Kod: Açıklaması Ses kaydında var.
+list add_to_end( List slist, char *student, int *flag)
+{
+List node, temp;
+temp = slist;
+while ( temp -> next != NULL)
+    {temp = temp -> next;}
+node = malloc(sizeof(struct list_node))
+if (node == NULL) *flag = FALSE;
+else {
+strncpy(node->name, student, MAXNAME);
+*flag = TRUE;
+temp -> next = node;
+}
+return (slist);
+}
