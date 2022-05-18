@@ -1,0 +1,10 @@
+#include "list.h"
+
+struct queue_struct {
+    List front;
+    List reat;
+};
+
+sayfa 248-249-250
+
+Sayfa 251 ses kaydında var.
