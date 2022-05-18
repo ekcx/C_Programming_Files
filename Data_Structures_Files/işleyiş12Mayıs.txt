@@ -8,3 +8,14 @@ struct queue_struct {
 sayfa 248-249-250
 
 Sayfa 251 ses kaydında var.
+
+5.12 TREES
+
+6.4 Simple Searching Methods. Anlatiyür.
+Binary Search Kesin sınav sorusu. Binary search yaptıktan sonra veriyi treeye oturtmak önemli C'de.
+Linear search o kadar bahsetmedi.
+
+6.3 Sorting Algorithm
+
+insertion sort - Anlattı. tablo var ona bakalım. kodunu yazalım.
+Shellsort bahsetti ama çok değil buble sorting'e benziyor.

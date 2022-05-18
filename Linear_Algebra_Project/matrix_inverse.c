@@ -8,6 +8,7 @@
 
 int main(){
 
+// swap işlemini pointerlarla yapıyorduk.
 
 
 
