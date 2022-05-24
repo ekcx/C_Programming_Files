@@ -9,24 +9,6 @@ struct {
     char *engine;
 } car1, car2;
 
-int manager()
-{
-    struct {
-        char *name;
-        int age;
-        int salary;
-    } manager ;
-
-    manager.age = 27;
-
-    if(manager.age > 30){
-        manager.salary = 65000;
-    }else{
-        manager.salary = 55000;
-    }
-    return manager.salary;
-}
-
 int main(){
 
     car1.engine = "DDis 190 Engine";
