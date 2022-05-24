@@ -3,4 +3,4 @@ project(C_Programming C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled Scientific_Files/LabFinal/Final230206057Q1.c)
+add_executable(untitled Data_Structures_Files/Neso_Academy02.c)
