@@ -3,4 +3,4 @@ project(C_Programming C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled Data_Structures_Files/Neso_Academy05.c Data_Structures_Files/Neso_Academy06.c)
+add_executable(untitled Data_Structures_Files/Neso_Academy07.c)
