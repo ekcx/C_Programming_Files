@@ -37,7 +37,12 @@ int main(){
 
     name_surname john_doe = {"John", "Doe", .age = 30, .address = "5th Avenue 10001 Manhattan NYC", .salary = 10000};
     name_surname *person_detail = &john_doe;
-    printf("%s %s %s %d %d", person_detail->name, person_detail->surname, person_detail->address, person_detail->age, person_detail->salary);
+    printf("%s %s %s %d %d\n", person_detail->name, person_detail->surname, person_detail->address, person_detail->age, person_detail->salary);
 
+    int age2 = person_detail->age; //Assigning pointer struct's variable to the normal integer variable.
+    char *name = person_detail->name; //Assigning pointer struct's variable to the normal pointer char variable.
+
+
+    printf("%d \t %s", age2, name);
 
 }
