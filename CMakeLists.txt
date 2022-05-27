@@ -3,4 +3,4 @@ project(C_Programming C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled SortingAlgorithms/Line_Graphic.c)
+add_executable(untitled SortingAlgorithms/sorting_final03.c)
