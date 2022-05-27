@@ -1,7 +1,3 @@
-//
-// Created by Kocatas on 4/30/2021
-//
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -21,7 +17,7 @@ int main(){
     double x; // x variable on the equation
     int polynomial_degree; // polynomial degree of the equation
 
-    printf("x value : \n");
+    printf("x value on f(x) : \n");
     scanf("%lf", &x);
 
     printf("polynomial degree: \n");
@@ -40,7 +36,7 @@ double polysum(double *equation, double xvalue, int degree){
 
     for(int i = degree; i >= 0; i--){
 
-        printf("Enter %d th element: \n", i);
+        printf("Enter %d th element x^%d: \n", i,i);
         scanf("%lf", (equation+i)); // assigning to the memory.
         //printf("%lf \n", *(equation+i)); // it can be printed of the coeff. if possible.
         sum += *(equation+i) * pow(xvalue, i); //This is the calculation step of the equation.

@@ -26,6 +26,28 @@ int main() {
         }
         printf("");
     }
+
+
+
+    (10,5) - (60,70)
+    m = i2 - i1 / j2 - j1 = i - i1 / j - j1 //eğim denklemi
+            i -i1 = m(j-j1)
+            i = m*(j - 5) + 10
+
+
+#define max(x,y)  ((x) >= (y) ? x : y)
+
+
+    for i = 0 i < 80; i++
+        for j = 0; j < 80; j++{
+            float m;
+            m = 50/65;
+            if(fabs i - m*(j-5)+10 < 0.8 && j > min(j1,j2)) && j < max(j1,j2))
+            printf("*")
+        } else{
+            printf("0")
+        }printf("\n");
+}
 }
 
 /*
