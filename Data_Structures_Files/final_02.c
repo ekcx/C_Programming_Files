@@ -31,7 +31,7 @@ void matrix_display(double *A, double *B, int rowSize, int colSize){
 
     for(int i = 0; i < rowSize; i++){
         for(int j = 0; j < colSize; j++){
-            scanf("%lf", (A+i*colSize+j));
+            scanf("%lf", (A + i*colSize + j));
         }
     }
 
@@ -49,7 +49,5 @@ void matrix_display(double *A, double *B, int rowSize, int colSize){
     printf("\nThe size of matrix: %dx%d\n", rowSize,colSize);
     free(B);
     free(A);
-
-
 
 }
