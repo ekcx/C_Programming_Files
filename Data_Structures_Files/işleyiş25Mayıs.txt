@@ -1,0 +1,7 @@
+1) Insertion Sort -
+2) Quick Sort -
+3) pivot eleman belirliyoruz.
+4) 3-4 tane sorting algoritması var. bir tane dizi belirle. Onun üzerinde tek tek sıralama için algoritma yaz.
+5) deneye deneye yaz ve bul.
+6) Swap işlemini ezbere yaz.
+7) L10Sorting2 slaytına bakıcam.
