@@ -9,17 +9,18 @@
 // Calculating the square of the main diagonal of any matrix.
 
 void matrix_squared(double *, int , int );
+double matrix_trace(double *, int, int);
 
 int main(){
 
-    double *matrix1;
+    double *matrix1, trace;
     int row, col;
     printf("Enter row and col: \n");
     scanf("%d%d", &row, &col);
 
-
     matrix_squared(matrix1, row, col);
-
+    trace = matrix_trace(matrix1, row, col);
+    printf("Trace of the matrix is: %lf \n", trace);
 
 }
 
@@ -47,5 +48,24 @@ void matrix_squared(double *Result, int rowSize, int colSize){
     }
 
     free(Result);
+
+}
+
+double matrix_trace(double *matrix, int row, int col){
+
+    matrix = (double *) malloc(row * col * sizeof(double));
+    double trace = 0.0;
+
+    for(int i = 0; i < row; i++){
+        for(int j = 0; j < col; j++){
+            scanf("%lf", (matrix+ i*col+j));
+
+            if(i == j){
+                trace += *(matrix+i*col+j);
+            }
+        }
+    }
+
+    return trace;
 
 }
