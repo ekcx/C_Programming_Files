@@ -1,5 +1,5 @@
 //
-// Created by Kocatas on 5/29/2022.
+// Created by Kocatas on 5/30/2022.
 //
 
 
@@ -16,23 +16,17 @@ int main(){
     int temp = 0;
 
     for(i = 0; i < 10; i++) {
-        smallest = i;
         for (j = i + 1; j < 10; j++) {
-            if (array[j] < array[smallest]) {
+            if (array[j] < array[i]) {
 
-                temp = array[j];
-                array[j] = array[smallest];
-                array[smallest] = temp;
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
             }
         }
         printf("%d'th = %d \n", i, array[i]);
-        /*
-                temp = array[i];
-                array[i] = array[smallest];
-                array[smallest] = temp;
-                printf("%d'th  = %d \n",i , array[i]);
-          */
-            }
+    }
+
 
     printf("\n");
 
