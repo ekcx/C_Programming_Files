@@ -3,4 +3,4 @@ project(C_Programming C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled Data_Structures_Files/final_03.c)
+add_executable(untitled Data_Structures_Files/Line_Graph02.c)
